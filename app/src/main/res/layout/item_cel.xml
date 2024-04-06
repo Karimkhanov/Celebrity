@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="20dp">
+
+
+    <ImageView
+        android:id="@+id/cel_image"
+        android:layout_width="150dp"
+        android:layout_height="match_parent"
+        android:contentDescription="@null"
+        tools:srcCompat="@drawable/baseline_connected_tv_24" />
+
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/cel_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            tools:text="Something Good" />
+
+
+        <TextView
+            android:id="@+id/cel_worth"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:textSize="16sp"
+            tools:text="Куриные кусочки, соус терияки" />
+
+        <TextView
+            android:id="@+id/cel_gender"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:textSize="16sp"
+            tools:text="Куриные кусочки, соус терияки" />
+
+        <TextView
+            android:id="@+id/cel_nationality"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:textSize="16sp"
+            tools:text="Куриные кусочки, соус терияки" />
+
+        <TextView
+            android:id="@+id/cel_occupation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:textSize="16sp"
+            tools:text="Куриные кусочки, соус терияки" />
+
+        <TextView
+            android:id="@+id/cel_height"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:textSize="16sp"
+            tools:text="Куриные кусочки, соус терияки" />
+
+        <TextView
+            android:id="@+id/cel_birthday"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:textSize="16sp"
+            tools:text="Куриные кусочки, соус терияки" />
+
+        <TextView
+            android:id="@+id/cel_age"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:textSize="16sp"
+            tools:text="Куриные кусочки, соус терияки" />
+
+        <TextView
+            android:id="@+id/cel_is_alive"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:textSize="16sp"
+            tools:text="Куриные кусочки, соус терияки" />
+
+
+    </LinearLayout>
+
+</LinearLayout>
